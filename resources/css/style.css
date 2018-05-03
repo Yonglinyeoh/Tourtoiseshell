@@ -1,0 +1,137 @@
+/*Universal Properties*/
+html{
+  font-size: 18px;
+  font-family: Helvetica;
+
+}
+
+
+/*Header*/
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 1px dotted blue;
+}
+.box{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  height: 30rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.box header {
+  display:flex;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: cadetblue;
+  position: relative;
+  top:1rem;
+}
+
+header .logo{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding-left: 2rem;
+}
+header .logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.options{
+  display: flex;
+  border: 1px solid black;
+}
+.options span {
+  padding: 1rem 2rem;
+  border: 1px solid black;
+}
+/*Banner*/
+.Banner{
+  display: flex;
+  border: 1px solid black;
+  line-height: 1.2;
+  font-size: 2rem;
+  font-family: Helvetica;
+  justify-content: flex-end;
+  position: relative;
+  top: 10rem;
+  font-weight: bold;
+
+}
+.Banner p{
+  display: flex;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  border: 1px solid black;
+  position: relative;
+  left:2rem;
+}
+/*Content*/
+.content {
+  display: flex;
+  justify-content: center;
+  border: 1px dotted blue;
+}
+.service{
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  align-items:center;
+  justify-content: space-between;
+  height: 8rem;
+  width: 5rem;
+  border: 1px dotted black;
+  text-align:center;
+  border: 1px dotted orange;
+}
+.exam img{
+  width: 3.5rem;
+}
+.fit img, .truck img{
+  width: 5rem;
+}
+/*Content 2*/
+.information{
+  display: flex;
+  justify-content: center;
+  border: 2px dotted black;
+  padding-bottom: 5rem;
+}
+.info{
+  width: 35%;
+
+}
+.phi{
+  margin-right: 2.5%;
+}
+.app{
+  margin-left: 2.5%;
+}
+
+.title{
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+/*Footer*/
+footer .logo {
+display: flex;
+align-items: center;
+background-color: azure;
+padding: 4rem 4rem;
+}
+footer .logo img{
+  padding-right: 1rem;
+}
+
+footer .logo img{
+  height: 1.5rem;
+}
