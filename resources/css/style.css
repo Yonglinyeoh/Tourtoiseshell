@@ -11,9 +11,9 @@ html{
   margin: 0 auto;
 }
 .box{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-image: url(file:///D:/Project%20Folder/Tourtoiseshell/resources/images/foto.jpg);
   height: 30rem;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
 }
 
@@ -229,10 +229,12 @@ header .logo img {
 
 }
 /*Footer*/
+.box2{
+  background-color: powderblue;
+}
 footer .logo {
 display: flex;
 align-items: center;
-background-color: azure;
 padding: 4rem 4rem;
 }
 footer .logo img{
