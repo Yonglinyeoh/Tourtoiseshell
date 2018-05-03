@@ -2,9 +2,8 @@
 html{
   font-size: 18px;
   font-family: Helvetica;
-
+  line-height: 1.4;
 }
-
 
 /*Header*/
 .container {
@@ -35,6 +34,7 @@ header .logo{
   align-items: center;
   border: 1px solid black;
   padding-left: 2rem;
+  font-size: 1rem;
 }
 header .logo img {
   height: 1.5rem;
@@ -48,7 +48,30 @@ header .logo img {
 .options span {
   padding: 1rem 2rem;
   border: 1px solid black;
+  font-size: 1rem;
 }
+
+
+/*Header 1024px*/
+@media only screen and (max-width:1024px){
+  .container{
+    width: 100%;
+  }
+  .box{
+    height: 22rem;
+    background-size:cover;
+  }
+  .box header{
+    position:static;
+  }
+}
+/*Header 700px*/
+@media only screen and (max-width: 700px) {
+.box .logo span{
+  display: none;
+}
+}
+
 /*Banner*/
 .Banner{
   display: flex;
@@ -70,6 +93,20 @@ header .logo img {
   position: relative;
   left:2rem;
 }
+/*Banner 1024px*/
+@media only screen and (max-width:1024px){
+.Banner{
+  position: relative;
+  top: 5rem;
+  right: 4rem;
+  font-size: 1.33rem;
+}
+
+.Banner p{
+  padding: 0.75rem 4rem;
+  }
+}
+
 /*Content*/
 .content {
   display: flex;
@@ -86,7 +123,6 @@ header .logo img {
   width: 5rem;
   border: 1px dotted black;
   text-align:center;
-  border: 1px dotted orange;
 }
 .exam img{
   width: 3.5rem;
@@ -135,3 +171,4 @@ footer .logo img{
 footer .logo img{
   height: 1.5rem;
 }
+/*media*/
