@@ -208,7 +208,8 @@ header .logo img {
 }
 /*Content 2 700px*/
 @media only screen and (max-width: 700px){
-  .information{
+
+.information{
     display: block;
   }
 .info{
@@ -216,8 +217,8 @@ header .logo img {
   margin: 0 auto;
 }
 .title{
-
   width:100%;
+  padding: 0.5rem 0;
   text-align: center;
 }
 .info p{
@@ -246,6 +247,10 @@ footer .logo img{
 }
 /*media*/
 @media only screen and (max-width: 700px){
+.container{
+  width: 100%;
+}
+
 footer span{
   display:none;
 }
