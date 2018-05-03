@@ -11,7 +11,7 @@ html{
   margin: 0 auto;
 }
 .box{
-  background-image: url(./Tourtoiseshell/resources/images/foto.jpg);
+  background-image: url(../images/foto.jpg);
   height: 30rem;
   background-size:cover;
   background-position: center;
