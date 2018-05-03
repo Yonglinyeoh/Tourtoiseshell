@@ -9,7 +9,6 @@ html{
 .container {
   max-width: 960px;
   margin: 0 auto;
-  border: 1px dotted blue;
 }
 .box{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
@@ -33,7 +32,7 @@ html{
 header .logo{
   display: flex;
   align-items: center;
-  border: 1px solid black;
+
   padding-left: 2rem;
   font-size: 1rem;
 }
@@ -44,11 +43,11 @@ header .logo img {
 
 .options{
   display: flex;
-  border: 1px solid black;
+
 }
 .options span {
   padding: 1rem 2rem;
-  border: 1px solid black;
+
   font-size: 1rem;
 }
 .mobile{
@@ -84,7 +83,7 @@ header .logo img {
 }
 .box {
   height: 17rem;
-  background-position: center;
+  background-position: 20%;
   background-size: cover;
 }
 }
@@ -92,7 +91,7 @@ header .logo img {
 /*Banner*/
 .Banner{
   display: flex;
-  border: 2px solid black;
+
   line-height: 1.2;
   font-size: 2rem;
   font-family: Helvetica;
@@ -107,7 +106,7 @@ header .logo img {
   background-color: white;
   padding: 1.5rem 5rem;
   margin-top:0;
-  border: 1px solid black;
+
   position: relative;
   left:2rem;
 }
@@ -146,7 +145,7 @@ header .logo img {
 .content {
   display: flex;
   justify-content: center;
-  border: 1px dotted blue;
+
 }
 .service{
   display: flex;
@@ -156,7 +155,7 @@ header .logo img {
   justify-content: space-between;
   height: 8rem;
   width: 5rem;
-  border: 1px dotted black;
+
   text-align:center;
 }
 .exam img{
@@ -184,7 +183,7 @@ header .logo img {
 .information{
   display: flex;
   justify-content: center;
-  border: 2px dotted black;
+
   padding-bottom: 5rem;
 }
 .info{
@@ -217,7 +216,7 @@ header .logo img {
   margin: 0 auto;
 }
 .title{
-  border: 2px solid black;
+
   width:100%;
   text-align: center;
 }
