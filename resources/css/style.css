@@ -178,7 +178,6 @@ header .logo img {
 .service.exam,.service.fit{
   margin-bottom: 1.54rem;
 }
-
 }
 
 /*Content 2*/
@@ -208,6 +207,28 @@ header .logo img {
   padding: 0.5rem 1.25rem;
   margin-bottom: 1rem;
 }
+/*Content 2 700px*/
+@media only screen and (max-width: 700px){
+  .information{
+    display: block;
+  }
+.info{
+  width: 100%;
+  margin: 0 auto;
+}
+.title{
+  border: 2px solid black;
+  width:100%;
+  text-align: center;
+}
+.info p{
+  font-size: 0.77rem;
+}
+.phi{
+  padding-bottom: 4rem;
+}
+
+}
 /*Footer*/
 footer .logo {
 display: flex;
@@ -223,3 +244,12 @@ footer .logo img{
   height: 1.5rem;
 }
 /*media*/
+@media only screen and (max-width: 700px){
+footer span{
+  display:none;
+}
+footer .logo{
+  justify-content: center;
+}
+}
+}
