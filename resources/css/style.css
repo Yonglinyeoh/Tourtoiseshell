@@ -24,6 +24,7 @@ html{
   justify-content: space-between;
   align-items: center;
   color: white;
+  min-height: 3rem;
   background-color: cadetblue;
   position: relative;
   top:1rem;
@@ -50,8 +51,9 @@ header .logo img {
   border: 1px solid black;
   font-size: 1rem;
 }
-
-
+.mobile{
+  display: none;
+}
 /*Header 1024px*/
 @media only screen and (max-width:1024px){
   .container{
@@ -67,15 +69,30 @@ header .logo img {
 }
 /*Header 700px*/
 @media only screen and (max-width: 700px) {
+.container{
+  width: 100%;
+}
 .box .logo span{
   display: none;
+}
+.options{
+  display: none;
+}
+.mobile{
+  display: block;
+  padding-right: 2rem;
+}
+.box {
+  height: 17rem;
+  background-position: center;
+  background-size: cover;
 }
 }
 
 /*Banner*/
 .Banner{
   display: flex;
-  border: 1px solid black;
+  border: 2px solid black;
   line-height: 1.2;
   font-size: 2rem;
   font-family: Helvetica;
@@ -89,6 +106,7 @@ header .logo img {
   display: flex;
   background-color: white;
   padding: 1.5rem 5rem;
+  margin-top:0;
   border: 1px solid black;
   position: relative;
   left:2rem;
@@ -98,15 +116,32 @@ header .logo img {
 .Banner{
   position: relative;
   top: 5rem;
-  right: 4rem;
   font-size: 1.33rem;
 }
 
 .Banner p{
   padding: 0.75rem 4rem;
+  position:static;
+  margin-right: 2rem;
   }
 }
-
+/*Banner 700px*/
+@media only screen and (max-width: 700px) {
+.container{
+  width: 100%;
+}
+.Banner {
+  position: relative;
+  top: 9rem;
+}
+.Banner p{
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+  justify-content: center;
+  padding: 1rem 0;
+}
+}
 /*Content*/
 .content {
   display: flex;
@@ -130,6 +165,22 @@ header .logo img {
 .fit img, .truck img{
   width: 5rem;
 }
+/*Content 700px*/
+@media only screen and (max-width: 700px){
+.content{
+  display: block;
+  margin: 3.77rem 0;
+}
+.service{
+  margin: 0 auto;
+  font-size: 0.77rem;
+}
+.service.exam,.service.fit{
+  margin-bottom: 1.54rem;
+}
+
+}
+
 /*Content 2*/
 .information{
   display: flex;
